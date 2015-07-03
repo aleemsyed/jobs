@@ -1,0 +1,22 @@
+title: <Job Advert Title (required)>
+company: <Your Company (required)>
+url: http://<Link to your site/a job spec (optional)>
+location: <where is the job based? e.g. London,England>
+contract: permanent (or contract/temporary/part-time ..)
+contact:
+    name: <Your name (required)>
+    email: <Email address applicants should submit to (required)>
+    phone: <Phone number (optional)
+created: !!timestamp '2015-02-20' <- The date the job was submitted
+tags:
+  - london
+  - england
+  - uk
+  - python
+  - sql
+  - django <- include as many tags as you want
+---
+
+# This is a header
+
+Full job description here, in Markdown format
